@@ -3,11 +3,10 @@ import type { Game, Genre } from '~~/shared/types/game'
 
 const games = rawGames as Game[]
 
-/** 新しい順 → 同年なら featured 優先 → タイトル順 で安定させる */
+/** タイトルのアルファベット順。同名は slug で安定させる */
 const sorted = [...games].sort((a, b) =>
-  b.year - a.year
-  || Number(b.featured ?? false) - Number(a.featured ?? false)
-  || a.title.localeCompare(b.title, 'ja'),
+  a.title.localeCompare(b.title, 'ja', { sensitivity: 'base', numeric: true })
+  || a.slug.localeCompare(b.slug),
 )
 
 export function useGames() {

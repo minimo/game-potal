@@ -111,11 +111,12 @@
   {
     "slug": "kumakuma-bangbang",
     "title": "KumaKuma☆BangBang",
-    "tagline": "",
+    "tagline": "パネルを動かして道を作る、クマのスライドパズル",
     "url": "https://minimo.github.io/KumaBang/",
     "repo": "https://github.com/minimo/KumaBang",
     "genre": [
-      "puzzle"
+      "puzzle",
+      "action"
     ],
     "tech": [
       "phina.js"
@@ -126,7 +127,8 @@
     ],
     "mobile": true,
     "year": 2014,
-    "status": "playable"
+    "status": "playable",
+    "description": "5×5のパネルを入れ替えて、クマをスタートからゴールまで導くアクションパズル。\nクマは道なりに自動で進んでいくので、進む先のパネルをスライドさせて経路をつなげていきます。落とし穴や十字パネルなど動かせない特殊パネルもあるので、限られた手数と時間の中でどう道を通すかが悩みどころです。\nステージクリア型のほかエンドレスモードを収録。ライフが尽きるとゲームオーバーです。"
   },
   {
     "slug": "quick-draw-ex",
@@ -147,7 +149,8 @@
     ],
     "mobile": true,
     "year": 2015,
-    "status": "playable"
+    "status": "playable",
+    "description": "現れるターゲットを素早く撃ち抜く早撃ちゲーム。\n画面をタッチまたはクリックして射撃します。弾数には限りがあり、ステージごとのクリア条件を満たすまでのタイムを競います。\n最終ステージにはエクストラターゲットが登場します。"
   },
   {
     "slug": "planet-strike",
@@ -308,6 +311,117 @@
     ],
     "mobile": true,
     "year": 2014,
+    "status": "playable"
+  },
+  {
+    "slug": "fruits-slash",
+    "title": "FruitsSlash",
+    "tagline": "飛んでくるフルーツを斬りまくるスラッシュアクション",
+    "description": "次々と放り投げられるフルーツを、画面をなぞって斬っていくアクションゲーム。\n続けて斬るとコンボがつながり、GOOD! / GREAT! / EXCELLENT! / MARVELLOUS! と評価が上がって高得点になります。\nゲームレベルは進むほど上がり、放り投げられるフルーツの数と速度が増していきます。",
+    "url": "https://minimo.github.io/FruitsSlash/",
+    "repo": "https://github.com/minimo/FruitsSlash",
+    "genre": [
+      "action"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2021,
+    "status": "playable"
+  },
+  {
+    "slug": "return-of-hayabusa",
+    "title": "ReturnOfHayabusa",
+    "tagline": "700万kmを旅して、イトカワのサンプルを地球へ",
+    "description": "700万kmの旅路を越えて、イトカワのサンプルを地球へ持ち帰る宇宙航行アクション。地球からイトカワ、イトカワから地球へと、隕石と宇宙放射線を避けながら「はやぶさ」を導いてください。\nPCはカーソルキー、スマートフォンは画面の上下左右の縁をタッチで移動します。移動には推進剤(Propellant)を消費し、慣性が働くため減速・停止には逆方向への噴射が必要です。推進剤には限りがあり、尽きると帰還不能でゲームオーバー。\n宇宙放射線(☆)や大小の隕石に当たるとシールドが減少します。シールドは徐々に回復しますが、少ない状態で放射線を浴びるとイオンエンジンが停止し、4基すべて止まるとこれも帰還不能。たまに遭難しているクマさんがいるので助けてあげると、お礼に推進剤とシールドを回復してくれます。",
+    "url": "https://minimo.github.io/ReturnOfHayabusa/",
+    "repo": "https://github.com/minimo/ReturnOfHayabusa",
+    "genre": [
+      "action",
+      "simulation"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "keyboard",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2015,
+    "status": "playable"
+  },
+  {
+    "slug": "apple-catch",
+    "title": "AppleCatch",
+    "tagline": "落ちてくる果物を受け止め、爆弾を避けるキャッチゲーム",
+    "description": "空から降ってくるリンゴやバナナ、ぶどう、メロンを受け止めて点数を稼ぐキャッチゲーム。\n左右移動とジャンプで自機を操り、連続で受け止めるとCOMBO!になって得点が伸びます。星を取ると一定時間の得点倍、クマさんも登場します。\n爆弾を受けてしまうとライフが減少。レベルが上がるほど落下が速く、密度も増していきます。",
+    "url": "https://minimo.github.io/AppleCatch/",
+    "repo": "https://github.com/minimo/AppleCatch",
+    "genre": [
+      "action"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "keyboard",
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2021,
+    "status": "playable"
+  },
+  {
+    "slug": "hiyoko-fly-high",
+    "title": "ひよこは意外と高く空を飛ぶ",
+    "tagline": "地上を駆け、跳んで撃つ、ひよこのシューティング",
+    "description": "ひよこを操作して弾幕をかいくぐるシューティング。\n前進・後退で位置を取り、ジャンプで空へ舞い上がりながらショットで敵を撃ち落としていきます。地上と空中を行き来する立ち回りが持ち味です。\nBulletMLによる弾幕パターンで敵弾が降り注ぎます。",
+    "url": "https://minimo.github.io/hiyokoflyhigh/",
+    "repo": "https://github.com/minimo/hiyokoflyhigh",
+    "genre": [
+      "shooting",
+      "action"
+    ],
+    "tech": [
+      "tmlib.js",
+      "BulletML"
+    ],
+    "controls": [
+      "keyboard",
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2015,
+    "status": "playable"
+  },
+  {
+    "slug": "the-stars-my-destination-original",
+    "title": "TheStarsMyDestination",
+    "tagline": "惑星を奪い合うリアルタイム侵略シミュレーションの初代版",
+    "description": "自分の惑星から艦隊を出撃させ、他の惑星を占領していくリアルタイムシミュレーション。のちのExの元になった初代版です。\n惑星の上の数字が戦力です。自分の惑星をクリックまたはタッチすると緑色でポイントされるので、そのまま出撃させたい惑星までドラッグすると艦隊が向かいます。出撃時は下の派兵レートに応じた戦力を消費し(消費戦力＝艦隊戦力)、自分の惑星から自分の惑星へ送ると戦力が加算されます。派兵レートは右下のスライダーで調整できます。\n左のスライダー、またはPCならZ・Xキーでマップの拡大縮小が可能。プレイヤーかCPUの総戦力が0になった時点でゲーム終了です。CPUは「一番近い惑星との戦力差が一定以上になったら派遣する」という単純なアルゴリズムなので、CPUと接する惑星を壁にして奥の惑星から艦隊を送ると楽に攻略できます。",
+    "url": "https://minimo.github.io/TheStarsMyDestination/",
+    "repo": "https://github.com/minimo/TheStarsMyDestination",
+    "genre": [
+      "strategy",
+      "simulation"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2013,
     "status": "playable"
   }
 ]
