@@ -17,7 +17,7 @@ useSeoMeta({
   ogTitle: g.title,
   ogDescription: g.tagline,
   ogType: 'website',
-  ogImage: g.thumb ? `/thumbs/${g.thumb}` : undefined,
+  ogImage: useThumbUrl(g.thumb),
   twitterCard: g.thumb ? 'summary_large_image' : 'summary',
 })
 </script>

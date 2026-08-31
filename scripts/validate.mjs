@@ -34,8 +34,8 @@ for (const [i, g] of games.entries()) {
   if (!Number.isInteger(g.year)) errors.push(`${at}: year は数値`)
 
   if (g.thumb) {
-    try { await access(resolve(root, 'public/thumbs', g.thumb)) }
-    catch { errors.push(`${at}: サムネイル public/thumbs/${g.thumb} が見つかりません`) }
+    try { await access(resolve(root, 'data/screenshot', g.thumb)) }
+    catch { errors.push(`${at}: サムネイル data/screenshot/${g.thumb} が見つかりません`) }
   }
 }
 

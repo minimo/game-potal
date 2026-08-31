@@ -21,7 +21,8 @@
     "mobile": false,
     "year": 2016,
     "status": "playable",
-    "featured": true
+    "featured": true,
+    "thumb": "quest-for-tanelorn.png"
   },
   {
     "slug": "the-stars-my-destination",
@@ -44,7 +45,8 @@
     "mobile": true,
     "year": 2014,
     "status": "playable",
-    "featured": true
+    "featured": true,
+    "thumb": "the-stars-my-destination.jpg"
   },
   {
     "slug": "shotgun-poker",
@@ -66,7 +68,8 @@
     ],
     "mobile": true,
     "year": 2014,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "shotgun-poker.jpg"
   },
   {
     "slug": "touch-de-shot",
@@ -86,7 +89,8 @@
     ],
     "mobile": true,
     "year": 2014,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "touch-de-shot.jpg"
   },
   {
     "slug": "planet-buster-revision",
@@ -106,7 +110,8 @@
     ],
     "mobile": false,
     "year": 2015,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "planet-buster-revision.jpg"
   },
   {
     "slug": "kumakuma-bangbang",
@@ -128,7 +133,8 @@
     "mobile": true,
     "year": 2014,
     "status": "playable",
-    "description": "5×5のパネルを入れ替えて、クマをスタートからゴールまで導くアクションパズル。\nクマは道なりに自動で進んでいくので、進む先のパネルをスライドさせて経路をつなげていきます。落とし穴や十字パネルなど動かせない特殊パネルもあるので、限られた手数と時間の中でどう道を通すかが悩みどころです。\nステージクリア型のほかエンドレスモードを収録。ライフが尽きるとゲームオーバーです。"
+    "description": "5x5のパネルを入れ替えて、クマをスタートからゴールまで導くアクションパズル。\nクマは道なりに自動で進んでいくので、進む先のパネルをスライドさせて経路をつなげていきます。落とし穴や十字パネルなど動かせない特殊パネルもあるので、限られた手数と時間の中でどう道を通すかが悩みどころです。\nステージクリア型のほかエンドレスモードを収録。ライフが尽きるとゲームオーバーです。",
+    "thumb": "kumakuma-bangbang.jpg"
   },
   {
     "slug": "quick-draw-ex",
@@ -150,7 +156,8 @@
     "mobile": true,
     "year": 2015,
     "status": "playable",
-    "description": "現れるターゲットを素早く撃ち抜く早撃ちゲーム。\n画面をタッチまたはクリックして射撃します。弾数には限りがあり、ステージごとのクリア条件を満たすまでのタイムを競います。\n最終ステージにはエクストラターゲットが登場します。"
+    "description": "現れるターゲットを素早く撃ち抜く早撃ちゲーム。\n画面をタッチまたはクリックして射撃します。弾数には限りがあり、ステージごとのクリア条件を満たすまでのタイムを競います。\n最終ステージにはエクストラターゲットが登場します。",
+    "thumb": "quick-draw-ex.jpg"
   },
   {
     "slug": "planet-strike",
@@ -174,7 +181,8 @@
     ],
     "mobile": false,
     "year": 2026,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "planet-strike.jpg"
   },
   {
     "slug": "no-life-king",
@@ -197,7 +205,8 @@
     ],
     "mobile": false,
     "year": 2026,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "no-life-king.jpg"
   },
   {
     "slug": "shooting-360",
@@ -219,7 +228,8 @@
     ],
     "mobile": false,
     "year": 2026,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "shooting-360.jpg"
   },
   {
     "slug": "sekigahara-3d",
@@ -243,7 +253,8 @@
     ],
     "mobile": true,
     "year": 2026,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "sekigahara-3d.jpg"
   },
   {
     "slug": "midway-3d",
@@ -267,7 +278,8 @@
     ],
     "mobile": true,
     "year": 2026,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "midway-3d.jpg"
   },
   {
     "slug": "planet-buster",
@@ -289,7 +301,8 @@
     ],
     "mobile": true,
     "year": 2014,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "planet-buster.png"
   },
   {
     "slug": "planet-buster-2",
@@ -311,7 +324,8 @@
     ],
     "mobile": true,
     "year": 2014,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "planet-buster-2.jpg"
   },
   {
     "slug": "fruits-slash",
@@ -332,7 +346,8 @@
     ],
     "mobile": true,
     "year": 2021,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "fruits-slash.jpg"
   },
   {
     "slug": "return-of-hayabusa",
@@ -354,7 +369,8 @@
     ],
     "mobile": true,
     "year": 2015,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "return-of-hayabusa.jpg"
   },
   {
     "slug": "apple-catch",
@@ -376,7 +392,8 @@
     ],
     "mobile": true,
     "year": 2021,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "apple-catch.jpg"
   },
   {
     "slug": "hiyoko-fly-high",
@@ -400,7 +417,8 @@
     ],
     "mobile": true,
     "year": 2015,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "hiyoko-fly-high.jpg"
   },
   {
     "slug": "the-stars-my-destination-original",
@@ -422,6 +440,7 @@
     ],
     "mobile": true,
     "year": 2013,
-    "status": "playable"
+    "status": "playable",
+    "thumb": "the-stars-my-destination-original.jpg"
   }
 ]

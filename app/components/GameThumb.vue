@@ -12,6 +12,8 @@ const placeholderStyle = computed(() => ({
     + `linear-gradient(160deg, hsl(${(hue.value + 40) % 360} 60% 26%), #0d1018)`,
 }))
 
+const src = computed(() => useThumbUrl(props.game.thumb))
+
 const initials = computed(() =>
   props.game.title.replace(/[^A-Za-z0-9ぁ-んァ-ヶ一-龠]/g, '').slice(0, 2).toUpperCase(),
 )
@@ -20,8 +22,8 @@ const initials = computed(() =>
 <template>
   <div class="thumb">
     <img
-      v-if="game.thumb"
-      :src="`/thumbs/${game.thumb}`"
+      v-if="src"
+      :src="src"
       :alt="game.title"
       loading="lazy"
       decoding="async"

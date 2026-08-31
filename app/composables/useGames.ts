@@ -38,3 +38,21 @@ export function slugHue(slug: string): number {
   for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) % 360
   return h
 }
+
+/**
+ * data/screenshot/ のサムネイルを Vite に取り込ませ、ファイル名から URL を引けるようにする。
+ * public/ ではなくバンドル対象なので、ビルド時にハッシュ付きで配信される。
+ */
+const screenshots = import.meta.glob<string>(
+  '../../data/screenshot/*.{jpg,jpeg,png,webp,avif,gif}',
+  { eager: true, import: 'default', query: '?url' },
+)
+
+const thumbUrls = new Map(
+  Object.entries(screenshots).map(([path, url]) => [path.split('/').pop()!, url]),
+)
+
+/** games.json の thumb（ファイル名）から実際の URL を引く。無ければ undefined */
+export function useThumbUrl(thumb?: string): string | undefined {
+  return thumb ? thumbUrls.get(thumb) : undefined
+}
