@@ -178,7 +178,7 @@
     "title": "NO LIFE KING",
     "tagline": "アンデッドを率い、拠点を奪い合うリアルタイムストラテジー",
     "description": "拠点から拠点へ軍を送り、アイソメトリックの盤面を塗り替えていくリアルタイムストラテジー。\n自拠点を押してから目標の拠点までドラッグすると出撃します。ダブルクリックで全拠点から一斉送軍、長押しで拠点のアップグレードメニュー。本拠地を落とされた側の負けです。\nマップは6桁のシードから決定的に生成されるので、同じシードなら何度でも同じ地形で遊べます。",
-    "url": "",
+    "url": "https://no-life-king.toybox-mini.com/",
     "repo": "https://github.com/minimo/no-life-king",
     "genre": [
       "strategy",
@@ -194,6 +194,120 @@
     ],
     "mobile": false,
     "year": 2026,
-    "status": "wip"
+    "status": "playable"
+  },
+  {
+    "slug": "shooting-360",
+    "title": "Shooting 360",
+    "tagline": "無限の宇宙を舞台にした全方位アーケードシューティング",
+    "description": "無限にループする宇宙空間を、360度自由に回転・加速しながら飛び回る全方位シューティング。\n矢印キーで旋回と加減速、Zキーで通常弾、Xキーでチャージ式レーザー、Cキーでブースト回避。レベルアップやウェーブクリアのたびに提示される3つの強化から1つを選び、3-Way・5-Way・貫通弾へと自機を育てていきます。\n追尾してくるFighterやAceFighter、誘導ミサイルを放射するMissileFlowerを撃ち落とし、どこまでスコアを伸ばせるかに挑戦してください。",
+    "url": "https://shooting360.toybox-mini.com/",
+    "repo": "https://github.com/minimo/Shooting360",
+    "genre": [
+      "shooting",
+      "action"
+    ],
+    "tech": [
+      "three.js",
+      "Nuxt 4"
+    ],
+    "controls": [
+      "keyboard"
+    ],
+    "mobile": false,
+    "year": 2026,
+    "status": "playable"
+  },
+  {
+    "slug": "sekigahara-3d",
+    "title": "決戦 関ヶ原",
+    "tagline": "テレビ特番風に関ヶ原の戦いを再現する3D俯瞰デモ",
+    "description": "慶長5年9月15日、関ヶ原の戦いをテレビ特番のCG再現映像風に自動再生する3D俯瞰デモ。\n関ヶ原盆地・笹尾山・松尾山・南宮山・桃配山の地形の上に東西両軍13部隊が布陣し、進軍・潰走・敵中突破の矢印とともに戦況が動いていきます。朝霧の序章から開戦、笹尾山攻防、小早川秀秋の寝返り、島津の退き口、そして夕景の大俯瞰まで全6章・150秒で自動ループ。\n再生・一時停止・速度切替(0.5x/1x/2x)やシークバー、章ジャンプで好きな場面を見返せます。",
+    "url": "https://sekigahara.toybox-mini.com/",
+    "repo": "https://github.com/minimo/sekigahara-3d",
+    "genre": [
+      "toy",
+      "3d",
+      "simulation"
+    ],
+    "tech": [
+      "three.js",
+      "Nuxt 4"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2026,
+    "status": "playable"
+  },
+  {
+    "slug": "midway-3d",
+    "title": "激突 ミッドウェー",
+    "tagline": "テレビ特番風にミッドウェー海戦を再現する3D俯瞰デモ",
+    "description": "昭和17年6月4日のミッドウェー海戦を、テレビ特番のCG再現映像風に自動再生する3D俯瞰デモ。関ヶ原版と同じ演出フレームワークの海戦編です。\n波シェーダで描かれた太平洋とミッドウェー環礁を舞台に、3艦隊29隻の空母・戦艦・重巡・駆逐艦と、8個飛行隊のV字編隊が動きます。暁の出撃から「敵空母見ユ」の打電、VT-8雷撃隊の全滅、運命の五分間での加賀・蒼龍・赤城被弾、飛龍の反撃、そして日没の撤退まで全6章・150秒で自動ループ。\n再生・一時停止・速度切替(0.5x/1x/2x)やシークバー、章ジャンプで好きな場面を見返せます。",
+    "url": "https://midway.toybox-mini.com/",
+    "repo": "https://github.com/minimo/midway-3d",
+    "genre": [
+      "toy",
+      "3d",
+      "simulation"
+    ],
+    "tech": [
+      "three.js",
+      "Nuxt 4"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2026,
+    "status": "playable"
+  },
+  {
+    "slug": "planet-buster",
+    "title": "PlanetBuster",
+    "tagline": "弾消しとボムで切り抜ける弾幕シューティング",
+    "description": "撃ちっぱなしのショットで敵弾の隙間を縫っていく弾幕系シューティング。\nスマートフォンはスワイプ、PCはカーソルキーか画面のドラッグで自機を移動します。スワイプ・ドラッグ操作中はショットの威力が6割に落ちますが、そのぶん中型機を破壊したときに弾消しが発生します。\nZキーまたは左下のBombボタンでボムを使用。装備は一機につき一発で、Bombボタンの表示がそのまま残ボム数になります。",
+    "url": "https://minimo.github.io/PlanetBuster/",
+    "repo": "https://github.com/minimo/PlanetBuster",
+    "genre": [
+      "shooting"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "keyboard",
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable"
+  },
+  {
+    "slug": "planet-buster-2",
+    "title": "PlanetBuster2",
+    "tagline": "難易度選択とサブウェポンを備えた弾幕シューティング",
+    "description": "PlanetBusterの完全版として作られた弾幕シューティング。現在は2ステージまで遊べます。\nタイトル画面で難易度を選択してスタート。左右キー、またはクリック・タップで NORMAL → HARD → EASY とループ切り替えできます。\n画面のドラッグまたはスワイプで自機を移動、弾はオートで発射されます。Zキーか左下のBボタンでボム投下、Xキーか左下のWボタンでサブウェポン（取得時のみ）を使用。詳しい遊び方はゲーム内のチュートリアルを参照してください。",
+    "url": "https://minimo.github.io/PlanetBuster2/",
+    "repo": "https://github.com/minimo/PlanetBuster2",
+    "genre": [
+      "shooting"
+    ],
+    "tech": [
+      "enchant.js"
+    ],
+    "controls": [
+      "keyboard",
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable"
   }
 ]
