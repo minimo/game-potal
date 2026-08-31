@@ -1,0 +1,97 @@
+:root {
+  --bg: #0a0c14;
+  --bg-soft: #11141f;
+  --panel: #161a28;
+  --line: #262c40;
+  --text: #e8ecf5;
+  --muted: #8c94ab;
+  --accent: #4dd6ff;
+  --accent-2: #b06bff;
+  --warn: #ffb03a;
+  --radius: 14px;
+  --maxw: 1240px;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background:
+    radial-gradient(1200px 700px at 12% -10%, rgba(77, 214, 255, .14), transparent 60%),
+    radial-gradient(1000px 600px at 92% 0%, rgba(176, 107, 255, .12), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans',
+    'Noto Sans JP', Meiryo, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- 見出し --- */
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+/* --- ボタン --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color .15s, background .15s, transform .15s;
+}
+.btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+.btn-play {
+  background: linear-gradient(100deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+  color: #0a0c14;
+  padding: 14px 34px;
+  font-size: 16px;
+}
+.btn-play:hover { filter: brightness(1.08); }
+
+.btn[aria-disabled='true'] {
+  opacity: .45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* --- バッジ --- */
+.badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .04);
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.badge-3d { color: var(--accent); border-color: rgba(77, 214, 255, .4); }
+.badge-mobile { color: #6ee7a8; border-color: rgba(110, 231, 168, .35); }
+.badge-wip { color: var(--warn); border-color: rgba(255, 176, 58, .4); }
+.badge-archive { color: var(--muted); }

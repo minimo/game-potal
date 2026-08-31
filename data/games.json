@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "quest-for-tanelorn",
+    "title": "Quest For Tanelorn",
+    "tagline": "永遠の都を目指すサイドビューアクションRPG",
+    "description": "",
+    "url": "https://minimo.github.io/QuestForTanelorn/",
+    "repo": "https://github.com/minimo/QuestForTanelorn",
+    "genre": [
+      "rpg",
+      "action"
+    ],
+    "tech": [
+      "phina.js",
+      "Vite"
+    ],
+    "controls": [
+      "keyboard",
+      "touch"
+    ],
+    "mobile": false,
+    "year": 2016,
+    "status": "playable",
+    "featured": true
+  },
+  {
+    "slug": "the-stars-my-destination",
+    "title": "The Stars My Destination",
+    "tagline": "銀河系を制覇するリアルタイム惑星侵略ゲーム",
+    "description": "自分の惑星から艦隊を出撃させ、他の惑星を占領していくリアルタイムシミュレーション。\n惑星の上の数字が戦力です。自分の惑星をクリックまたはタッチして選び、出撃させたい惑星までドラッグすると艦隊が向かいます。",
+    "url": "https://minimo.github.io/TheStarsMyDestinationEx/",
+    "repo": "https://github.com/minimo/TheStarsMyDestinationEx",
+    "genre": [
+      "strategy",
+      "simulation"
+    ],
+    "tech": [
+      "tmlib.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable",
+    "featured": true
+  },
+  {
+    "slug": "shotgun-poker",
+    "title": "ShotgunPoker",
+    "tagline": "",
+    "description": "制限時間以内に、場のカード5枚をタッチして選びポーカーの役を作ってください。\n役に応じた点数がスコアに加算されます。素早く役を作ると高得点。左上のライフが無くなるとゲームオーバーです。",
+    "url": "https://minimo.github.io/ShotgunPoker/",
+    "repo": "https://github.com/minimo/ShotgunPoker",
+    "genre": [
+      "table",
+      "puzzle"
+    ],
+    "tech": [
+      "tmlib.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable"
+  },
+  {
+    "slug": "touch-de-shot",
+    "title": "TouchDeShot",
+    "tagline": "",
+    "url": "https://minimo.github.io/TouchDeShot/",
+    "repo": "https://github.com/minimo/TouchDeShot",
+    "genre": [
+      "shooting"
+    ],
+    "tech": [
+      "tmlib.js"
+    ],
+    "controls": [
+      "touch",
+      "mouse"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable"
+  },
+  {
+    "slug": "planet-buster-revision",
+    "title": "PlanetBuster Revision",
+    "tagline": "",
+    "url": "https://minimo.github.io/PlanetBusterRevision/",
+    "repo": "https://github.com/minimo/PlanetBusterRevision",
+    "genre": [
+      "shooting"
+    ],
+    "tech": [
+      "tmlib.js"
+    ],
+    "controls": [
+      "keyboard",
+      "mouse"
+    ],
+    "mobile": false,
+    "year": 2015,
+    "status": "playable"
+  },
+  {
+    "slug": "kumakuma-bangbang",
+    "title": "KumaKuma☆BangBang",
+    "tagline": "",
+    "url": "https://minimo.github.io/KumaBang/",
+    "repo": "https://github.com/minimo/KumaBang",
+    "genre": [
+      "puzzle"
+    ],
+    "tech": [
+      "phina.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2014,
+    "status": "playable"
+  },
+  {
+    "slug": "quick-draw-ex",
+    "title": "QuickDraw EX",
+    "tagline": "反射神経を試す早撃ち勝負",
+    "url": "https://minimo.github.io/QuickDrawEx/",
+    "repo": "https://github.com/minimo/QuickDrawEx",
+    "genre": [
+      "action",
+      "toy"
+    ],
+    "tech": [
+      "tmlib.js"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": true,
+    "year": 2015,
+    "status": "playable"
+  },
+  {
+    "slug": "planet-strike",
+    "title": "PLANET STRIKE",
+    "tagline": "",
+    "description": "",
+    "url": "https://planetstrike.toybox-mini.com/",
+    "repo": "https://github.com/minimo/PlanetStrike",
+    "genre": [
+      "shooting",
+      "3d",
+      "simulation"
+    ],
+    "tech": [
+      "three.js",
+      "Nuxt 4"
+    ],
+    "controls": [
+      "mouse",
+      "keyboard"
+    ],
+    "mobile": false,
+    "year": 2026,
+    "status": "playable"
+  },
+  {
+    "slug": "no-life-king",
+    "title": "NO LIFE KING",
+    "tagline": "アンデッドを率い、拠点を奪い合うリアルタイムストラテジー",
+    "description": "拠点から拠点へ軍を送り、アイソメトリックの盤面を塗り替えていくリアルタイムストラテジー。\n自拠点を押してから目標の拠点までドラッグすると出撃します。ダブルクリックで全拠点から一斉送軍、長押しで拠点のアップグレードメニュー。本拠地を落とされた側の負けです。\nマップは6桁のシードから決定的に生成されるので、同じシードなら何度でも同じ地形で遊べます。",
+    "url": "",
+    "repo": "https://github.com/minimo/no-life-king",
+    "genre": [
+      "strategy",
+      "simulation"
+    ],
+    "tech": [
+      "PixiJS",
+      "Nuxt 4",
+      "Pinia"
+    ],
+    "controls": [
+      "mouse"
+    ],
+    "mobile": false,
+    "year": 2026,
+    "status": "wip"
+  }
+]
