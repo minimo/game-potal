@@ -442,5 +442,31 @@
     "year": 2013,
     "status": "playable",
     "thumb": "the-stars-my-destination-original.jpg"
+  },
+  {
+    "slug": "the-last-battalion",
+    "title": "THE LAST BATTALION",
+    "tagline": "人間軍と魔王軍、数千の兵がぶつかり合う戦術級RTS",
+    "description": "人間軍と魔王軍の数千の兵が激突する3Dの戦術級リアルタイムストラテジー。指示は兵一人ひとりではなく、小隊・中隊・大隊の部隊単位で出します。\n部隊の旗を地面へドラッグすると移動、敵の旗へドラッグすると攻撃、敵陣へドラッグすると突撃。長押しで待機・退却・補給などのメニューが開きます。歩兵・槍兵・弓兵・騎兵・補給兵・工兵の6兵種を中隊に編成し、横陣・鶴翼・魚鱗・方円・鋒矢の陣形で布陣して、敵の本陣を落とした側の勝ちです。\n攻防戦・攻城戦・防衛戦の3つの戦場と、標準・草原・砂漠・荒野・魔王城付近の5つの地形を収録。同じSEEDと地形なら同じ戦場で何度でも戦えます。",
+    "url": "https://the-last-battalion.toybox-mini.com/",
+    "repo": "https://github.com/minimo/TheLastBattalion",
+    "genre": [
+      "strategy",
+      "simulation",
+      "3d"
+    ],
+    "tech": [
+      "three.js",
+      "Nuxt 4",
+      "Pinia"
+    ],
+    "controls": [
+      "mouse",
+      "touch"
+    ],
+    "mobile": false,
+    "year": 2026,
+    "status": "playable",
+    "thumb": "the-last-battalion.jpg"
   }
 ]
